@@ -8,5 +8,5 @@ Hello Tout le monde
 
 Ceci est le serveur Git de notre projet commun.
 
-Bye
+Bye Bisous Bisous
 Stéphane
