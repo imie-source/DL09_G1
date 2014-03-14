@@ -1,0 +1,5 @@
+bb_cerberus:
+    resource: "@BBCerberusBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
