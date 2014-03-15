@@ -3,7 +3,13 @@
 {% extends 'CerberusBundle::footer.html.twig' %}
 {% extends 'CerberusBundle::mainIndex.html.twig' %}
 
-{% block title %}Projet Cerberus/1984 | Accueil{% endblock %}
+{% block title %}Projet Cerberus/1984 | {{ TitrePage }}{% endblock %}
+
+{% block head %}
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="{{ asset('bundles/cerberusbundle/css/reset.css') }}" />
+    <link rel="stylesheet" href="{{ asset('bundles/cerberusbundle/css/styles.css') }}" />
+{% endblock %}
 
 {% block content_header '' %}
 
