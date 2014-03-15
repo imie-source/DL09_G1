@@ -1,0 +1,11 @@
+{% extends 'CerberusBundle::form.html.twig' %}
+{% block content_header %}
+    <header>
+        <figure>
+            <img id="logo_imie"src="{{ asset('bundles/cerberusbundle/images/logo-imie.png }}" alt="Logo I M I E" />
+        </figure>
+        <form id="formulaireUser">
+            {% block content_form '' %}
+        </form>
+    </header>
+{% endblock %}
