@@ -1,0 +1,7 @@
+parameters:
+#    imie_cerberus.example.class: Imie\CerberusBundle\Example
+
+services:
+#    imie_cerberus.example:
+#        class: %imie_cerberus.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
