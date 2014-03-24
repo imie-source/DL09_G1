@@ -1,0 +1,9 @@
+imie_skills_voir:
+    pattern:  /user/voir/{id}
+    defaults: { _controller: ImieSkillsBundle:Skills:voir }
+imie_skills_ajouter:
+    pattern:  /user/ajouter
+    defaults:  {_controller: ImieSkillsBundle:Skills:ajouter }
+imie_skills_lister:
+    pattern:   /user/lister/{idRole}
+    defaults:   {_controller: ImieSkillsBundle:skills:lister }

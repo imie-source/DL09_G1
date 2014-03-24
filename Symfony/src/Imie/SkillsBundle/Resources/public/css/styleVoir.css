@@ -1,0 +1,16 @@
+th {
+	color : red;
+	background : lightgrey;
+	text-align : center;
+	width : 80px;
+	border : 1px solid white;
+}
+td {
+	color : white;
+	background : black;
+	text-align : center;
+	border : 1px solid white;
+}
+table{
+	border-collapse : collapse;
+}
