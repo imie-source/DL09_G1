@@ -1,1 +1,21 @@
-Hello {{ name }}!
+{% extends 'CerberusBundle::header.html.twig' %}
+{% extends 'CerberusBundle::nav.html.twig' %}
+{% extends 'CerberusBundle::footer.html.twig' %}
+{% extends 'CerberusBundle::mainIndex.html.twig' %}
+
+{% block title %}Projet Cerberus/1984 | {{ TitrePage }}{% endblock %}
+
+{% block head %}
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="{{ asset('bundles/cerberusbundle/css/reset.css') }}" />
+	<link rel="stylesheet" href="{{ asset('bundles/cerberusbundle/css/styles.css') }}" />
+{% endblock %}
+
+{% block content_header '' %}
+
+{% block content_nav '' %}
+
+{% block content_mainIndex '' %}
+
+{% block content_footer '' %}
+
