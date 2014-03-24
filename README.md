@@ -10,8 +10,14 @@ __Depot du groupe 1__
 
 
 ### Bundle d'intégration:
-+ imieBundle
 
+#### Namespace:
++ Imie
+
+#### Bundle:
++ CerberusBundle
+
+---------------------------------------------
 
 ## Contacts:
 + [Cédric Prudent](https://github.com/ced44 "Cédric Prudent")
