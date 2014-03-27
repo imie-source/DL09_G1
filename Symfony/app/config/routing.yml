@@ -1,4 +1,4 @@
-imie_cerberus:
-    resource: "@ImieCerberusBundle/Resources/config/routing.yml"
+tpfilrougeskills:
+    resource: "@TpfilrougeskillsBundle/Resources/config/routing.yml"
     prefix:   /
 

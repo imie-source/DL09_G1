@@ -1,0 +1,19 @@
+<!DOCTYPE>
+<html lang='fr'>
+    <head>
+        <title>Tp Fil Rouge</title>
+        <meta charset = 'utf-8'/>
+        {% block stylesheets %}
+            <link type="text/css" href = "{{ asset('bundles/skillsBundle/css/styleVoir.css') }}" rel="stylesheet" media="all" />
+			<link type="text/css" href = "{{ asset('bootstrap-3.1.1-dist/css/bootstrap.css') }}" rel="stylesheet" media="all" />
+			<link type="text/css" href = "{{ asset('bootstrap-3.1.1-dist/fonts/glyphicons-halflings-regular.ttf') }}" rel="stylesheet" media="all" />
+        {% endblock %}
+    </head>
+    <body>
+		<h1>User ajouté avec succès !<h1>
+		<p><a href="{{path('tpfilrougeskills_voir', {'id':user.id}) }}" class="btn">
+										<i class="icon-edit"></i>
+			Retour au formulaire
+			</a>
+	</body>
+</html>
