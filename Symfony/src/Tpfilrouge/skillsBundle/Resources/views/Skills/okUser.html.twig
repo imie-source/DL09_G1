@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <title>{% block title %}Projet Cerberus/1984 | Profil{% endblock %}</title>
+
+        <link type="text/css" href = "{{ asset('bundles/skills/css/reset.css') }}" rel="stylesheet" media="all" />
+        <link type="text/css" href = "{{ asset('bundles/skills/css/styles.css') }}" rel="stylesheet" media="all" />
+
+    </head>
+
+    <body>
+        <div id="main">
+            <header>
+                <figure>
+                    <img id="logo_imie" src="{{ asset('bundles/skills/img/logo-imie.png') }}" alt="Logo I M I E" />
+                </figure>
+                <form id="user">
+                    Ici un formulaire
+                </form>
+            </header>
+
+            <nav>
+                <a href="{{ path('tpfilrougeskills_accueil') }}">Accueil</a>
+                <span>|</span>
+                <a href="{{ path('tpfilrougeskills_lister', { 'idRole': 3 }) }}">Profil</a>
+                <span>|</span>
+                <a href="{{ path('tpfilrougeskills_listerProjet', { 'idRole': 3 }) }}">Projets</a>
+                <span>|</span>
+                <a href="#">Compétences</a>
+            </nav>
+            <hr>
+
+            <section>
+                <h3>Ok User<h3>
+            </section>
+       
+            <hr>
+            <footer>
+                Projet Cerberus | 1984 avec la participation de :<br>
+                <p id="name">Cédric "Fabulous" Prudent, Elvina "Awesome" Berneron, Ouahcène "Magnificent" Djaou, Anaël "Amazing" Tessier, Stéphane "Steller" Feuga.</p>
+                <hr>
+                <p id="copyright">Copyright © 2013-2014 under <a href="http://www.gnu.org/licenses/gpl.html">GNU/GPL v3</a>.</p>
+            </footer>
+        </div>
+    </body>
+</html>
