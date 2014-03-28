@@ -198,7 +198,13 @@ input[id="tpfilrouge_skillsbundle_user_login"] {
 input[id="tpfilrouge_skillsbundle_user_password"] {
     margin-left: 21px;
 }
-input[id="tpfilrouge_skillsbundle_user_descriptif"] {
+label[for="tpfilrouge_skillsbundle_user_descriptif"] {
+    position: relative;
+    transform: translateY(-55px);
+}
+textarea[id="tpfilrouge_skillsbundle_user_descriptif"] {
+    width: 300px;
+    height: 100px;
     margin-left: 25px;
 }
 input[id="tpfilrouge_skillsbundle_user_dispo"] {
@@ -239,13 +245,20 @@ input[value="Annuler"] {
 /* Formulaire Projet */
 input[id="tpfilrouge_skillsbundle_projet_nomProjet"] {
     margin-left: 50px;
-}
-input[id="tpfilrouge_skillsbundle_projet_descriptionProjet"] {
-    margin-left: 14px;
     width: 300px;
+}
+label[for="tpfilrouge_skillsbundle_projet_descriptionProjet"] {
+    position: relative;
+    transform: translateY(-55px);
+}
+textarea[id="tpfilrouge_skillsbundle_projet_descriptionProjet"] {
+    height: 100px;
+    width: 300px;
+    margin-left: 14px;
 }
 input[id="tpfilrouge_skillsbundle_projet_avancement"] {
     margin-left: 44px;
+    text-align: right;
 }
 select[id="tpfilrouge_skillsbundle_projet_dateDebut_year"] {
     margin-left: 111px;
