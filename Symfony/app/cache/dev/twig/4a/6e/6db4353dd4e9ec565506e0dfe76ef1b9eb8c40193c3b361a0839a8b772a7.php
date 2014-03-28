@@ -88,7 +88,7 @@ class __TwigTemplate_4a6e6db4353dd4e9ec565506e0dfe76ef1b9eb8c40193c3b361a0839a8b
                        ";
         // line 48
         $context['_parent'] = (array) $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["listeUsers"]) ? $context["listeUsers"] : $this->getContext($context, "listeUsers")));
+        $context['_seq'] = twig_ensure_traversable(twig_sort_filter((isset($context["listeUsers"]) ? $context["listeUsers"] : $this->getContext($context, "listeUsers"))));
         foreach ($context['_seq'] as $context["_key"] => $context["user"]) {
             // line 49
             echo "                            <tr id=\"listeUsers\">
@@ -118,30 +118,31 @@ class __TwigTemplate_4a6e6db4353dd4e9ec565506e0dfe76ef1b9eb8c40193c3b361a0839a8b
             echo "\">";
             echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->getAttribute((isset($context["user"]) ? $context["user"] : $this->getContext($context, "user")), "email")), "html", null, true);
             echo "</a></td>
-                                <td class=\"dispo\">";
-            // line 56
-            if (($this->getAttribute((isset($context["user"]) ? $context["user"] : $this->getContext($context, "user")), "dispo") == 1)) {
-                // line 57
-                echo "                                        Disponible
+                                <td class=\"dispo\">
                                     ";
+            // line 57
+            if (($this->getAttribute((isset($context["user"]) ? $context["user"] : $this->getContext($context, "user")), "dispo") == 1)) {
+                // line 58
+                echo "                                            Disponible
+                                        ";
             } else {
-                // line 59
-                echo "                                        Non Disponible
+                // line 60
+                echo "                                            Non Disponible
                                     ";
             }
-            // line 61
+            // line 62
             echo "                                </td>
                                 <td class=\"edit\">
                                     ";
-            // line 63
+            // line 64
             if (($this->getAttribute((isset($context["user"]) ? $context["user"] : $this->getContext($context, "user")), "id") == 2)) {
-                // line 64
+                // line 65
                 echo "                                        <a href=\"";
                 echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("tpfilrougeskills_voir", array("id" => $this->getAttribute((isset($context["user"]) ? $context["user"] : $this->getContext($context, "user")), "id"))), "html", null, true);
-                echo "\" class=\"btn\">éditer</a>
+                echo "\">éditer</a>
                                 ";
             }
-            // line 66
+            // line 67
             echo "                                </td>
                             </tr>
                         ";
@@ -149,7 +150,7 @@ class __TwigTemplate_4a6e6db4353dd4e9ec565506e0dfe76ef1b9eb8c40193c3b361a0839a8b
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['user'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 69
+        // line 70
         echo "                    </tbody>
                 </table>
             </section>
@@ -169,7 +170,7 @@ class __TwigTemplate_4a6e6db4353dd4e9ec565506e0dfe76ef1b9eb8c40193c3b361a0839a8b
     // line 6
     public function block_title($context, array $blocks = array())
     {
-        echo "Projet Cerberus/1984 | index";
+        echo "Projet Cerberus/1984 | Profil";
     }
 
     public function getTemplateName()
@@ -184,6 +185,6 @@ class __TwigTemplate_4a6e6db4353dd4e9ec565506e0dfe76ef1b9eb8c40193c3b361a0839a8b
 
     public function getDebugInfo()
     {
-        return array (  170 => 6,  153 => 69,  145 => 66,  139 => 64,  137 => 63,  133 => 61,  129 => 59,  125 => 57,  123 => 56,  117 => 55,  113 => 54,  109 => 53,  105 => 52,  101 => 51,  97 => 50,  94 => 49,  90 => 48,  68 => 29,  63 => 27,  58 => 25,  47 => 17,  36 => 9,  32 => 8,  27 => 6,  20 => 1,);
+        return array (  171 => 6,  154 => 70,  146 => 67,  140 => 65,  138 => 64,  134 => 62,  130 => 60,  126 => 58,  124 => 57,  117 => 55,  113 => 54,  109 => 53,  105 => 52,  101 => 51,  97 => 50,  94 => 49,  90 => 48,  68 => 29,  63 => 27,  58 => 25,  47 => 17,  36 => 9,  32 => 8,  27 => 6,  20 => 1,);
     }
 }
