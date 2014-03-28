@@ -84,6 +84,7 @@ h2, h3 {
 }
 h2 {
     font-size: 1.5em;
+    margin-bottom: 100px;
 }
 
 /* Layout */
@@ -122,6 +123,8 @@ h2 {
 }
 .firstSentence {
     font-style: italic;
+    text-align: center;
+    margin-bottom: 240px;
 }
 
 /* Table User */
