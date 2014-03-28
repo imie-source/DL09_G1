@@ -38,7 +38,7 @@ class skillsController extends Controller
                     $em = $this->getDoctrine()->getManager();
                     $em->persist($projet);
                     $em->flush();
-                    return new Response('Projet modifié');
+                    return $this->render('TpfilrougeskillsBundle:skills:okProjet.html.twig');
                 } 
 			}
 			return $this->render('TpfilrougeskillsBundle:skills:vueProjet.html.twig', array('form' => $form->createView(), ));
@@ -81,7 +81,7 @@ class skillsController extends Controller
                 $em = $this->getDoctrine()->getManager();
                 $em->persist($projet);
                 $em->flush();
-                return new Response('projet ajouté');
+                return $this->render('TpfilrougeskillsBundle:skills:okProjet.html.twig');
             }
 		}
 		
@@ -110,7 +110,7 @@ class skillsController extends Controller
                 $em = $this->getDoctrine()->getManager();
                 $em->persist($user);
                 $em->flush();
-                return new Response('user modifié');
+                return $this->render('TpfilrougeskillsBundle:skills:okUser.html.twig');
             } 
         }
         return $this->render('TpfilrougeskillsBundle:skills:vue.html.twig', array( 'form' => $form->createView(), ));
@@ -155,13 +155,11 @@ class skillsController extends Controller
                 $em = $this->getDoctrine()->getManager();
                 $em->persist($user);
                 $em->flush();
-                return new Response('user ajouté');
+                return $this->render('TpfilrougeskillsBundle:skills:okUser.html.twig');
             }
         }
 
-        return $this->render('TpfilrougeskillsBundle:skills:vue.html.twig', array(
-        'form' => $form->createView(),
-        ));
+        return $this->render('TpfilrougeskillsBundle:skills:vue.html.twig', array('form' => $form->createView(), ));
     }
 
 }
