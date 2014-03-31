@@ -44,7 +44,7 @@ __Depot du groupe 1__
 
 ## Contacts:
 + [Cédric Prudent](https://github.com/ced44 "Cédric Prudent")
-+ [Elvina Berneron]((https://github.com/ "Elvina Berneron")
++ [Elvina Berneron]((https://github.com/elvina44 "Elvina Berneron")
 + [Ouahcène Djaou](https://github.com/wacen "Ouahcène Djaou")
 + [Anaël Tessier](https://github.com/AnaelT "Anaël Tessier")
 + [Stéphane Feuga](https://github.com/sfeuga "Stéphane Feuga")
