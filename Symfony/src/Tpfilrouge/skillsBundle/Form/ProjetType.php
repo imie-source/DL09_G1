@@ -16,8 +16,8 @@ class ProjetType extends AbstractType
     {
         $builder
             ->add('nomProjet',			'text')
-            ->add('descriptionProjet',  'text')
-            ->add('avancement',			'percent')
+            ->add('descriptionProjet',  'textarea')
+            ->add('avancement',			'integer')
             ->add('dateDebut',			'date')
             ->add('dateFin',			'date')
 			->add('etat', 'entity', array(
