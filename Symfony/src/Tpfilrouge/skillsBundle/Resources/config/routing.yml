@@ -1,0 +1,26 @@
+tpfilrougeskills_accueil:
+    pattern: /home
+    defaults:  {_controller:  TpfilrougeskillsBundle:skills:index  }
+
+tpfilrougeskills_voir:
+    pattern:  /user/voir/{id}
+    defaults:  {_controller:  TpfilrougeskillsBundle:skills:voir  }
+tpfilrougeskills_lister:
+    pattern:  /user/lister/{idRole}
+    defaults:  {_controller:  TpfilrougeskillsBundle:skills:lister }
+tpfilrougeskills_ajouter:
+    pattern: /user/ajouter
+    defaults:  {_controller:  TpfilrougeskillsBundle:skills:ajouter }
+
+tpfilrougeskills_ajouter_projet:
+    pattern:  /projet/ajouter
+    defaults:  {_controller:  TpfilrougeskillsBundle:skills:ajouterProjet  }
+tpfilrougeskills_voirProjet:
+    pattern:  /projet/voir/{id}
+    defaults:  {_controller:  TpfilrougeskillsBundle:skills:voirProjet  }
+tpfilrougeskills_listerProjet:
+    pattern: /projet/lister/{idRole}
+    defaults:  {_controller:  TpfilrougeskillsBundle:skills:listerProjet  }
+tpfilrougeskills_listerCompetences:
+    pattern:    /competence
+    defaults:    { _controller:  TpfilrougeskillsBundle:Default:Competences }

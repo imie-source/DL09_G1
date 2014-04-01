@@ -1,0 +1,4 @@
+tpfilrougeskills:
+    resource: "@TpfilrougeskillsBundle/Resources/config/routing.yml"
+    prefix:   /
+

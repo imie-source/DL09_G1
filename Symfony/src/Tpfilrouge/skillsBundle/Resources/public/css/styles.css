@@ -1,0 +1,62 @@
+body {
+	background-color : #F3F2F0;
+	font-family : 	Arial,​serif;
+	font-size : 	12px;
+	overflow : scroll;
+}
+
+div {
+	width : 780px;
+	padding : 10px;
+	padding-top : 20px;
+	margin : auto;
+}
+a {
+	text-decoration : none;
+	color : black;
+}
+header {
+	font-weight : 	400;
+	display	: inline-block;
+	line-height : 15.6px;
+}
+header figure {
+	height: 84px;
+    overflow: hidden;
+    position: relative;
+    width: 184px;
+}
+header figure a {
+	color: #2A2A2A;
+    text-decoration: none;
+}
+header figure a img:hover{
+	bottom: 0;
+    position: absolute;
+}
+
+nav {
+    position : absolute;
+    margin-left: 220px;
+    margin-top: -38px;
+}
+nav a {
+	padding : 50px 15px;
+}
+nav a:hover {
+	color : #565656;
+	background-color : #E2E2E2;
+}
+nav span {
+	padding : 5px;
+}
+hr {
+	margin : 0;
+	margin-bottom : 15px;
+	color : #E2E2E2;
+}
+span ~ hr {
+	margin : 0;
+	margin-bottom : 15px;
+	margin-top : 15px;
+}
